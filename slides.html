@@ -4,10 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>reveal-md deployed to gh-pages</title>
+    <title>Linux Install Party</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
     <link rel="stylesheet" href="./dist/reveal.css" />
-    <link rel="stylesheet" href="./dist/theme/solarized.css" id="theme" />
-    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
+
     <link rel="stylesheet" href="./_assets/custom.css" />
 
   </head>
@@ -15,109 +18,158 @@
     <div class="reveal">
       <div class="slides"><section  data-markdown><script type="text/template">
 
-# reveal-md & github-pages
+# Linux Install Party
+
+by [SHUOSC](https://shuosc.org)
 
 </script></section><section  data-markdown><script type="text/template">
-## github-pages + reveal-md = awesome
+## 声明
 
-* write your slides in markdown <!-- .element: class="fragment" data-fragment-index="0" -->
-* commit them to github <!-- .element: class="fragment" data-fragment-index="1" -->
-* get them automatically deployed <!-- .element: class="fragment" data-fragment-index=2" -->
+事实上，Linux 指的是一个操作系统的内核，而Linux 一般和 GNU 操作系统一起使用：整个系统基本上就是 GNU 加上 Linux，或叫 GNU/Linux。
 
-</script></section><section  data-markdown><script type="text/template">
-## get started
+所有被叫做“Linux”的发行版实际上是 GNU/Linux 发行版。
+</script></section><section ><section data-markdown><script type="text/template">
+## 为什么选择 Linux
+</script></section><section data-markdown><script type="text/template">
+### 开源自由
+</script></section><section data-markdown><script type="text/template">
+### 安全稳定
+</script></section><section data-markdown><script type="text/template">
+### 轻量高效
 
-* just press this nice & friendly green button
-![nice & friendly green button](img/1_pressButton.png)
+- 遵循 [UNIX 哲学](https://zh.wikipedia.org/wiki/Unix%E5%93%B2%E5%AD%A6)“小即是美”
+- 系统占用资源少，这使得 Linux 硬件下限极低
+- 让你的老电脑焕发第二春
+<aside class="notes"><p>用过的 ThinkPad X1 Carbon 不要扔，来装 Linux</p>
+</aside></script></section><section data-markdown><script type="text/template">
+### 适合程序员
 
-</script></section><section  data-markdown><script type="text/template">
-## get started
+- 强大的命令行
+- 方便的包管理器
+- 详细的报错提示和日志信息
+- 接近实际服务器环境
 
-* give your new repo a name
-* keep it public! (or git will deny to publish it)
+<aside class="notes"><p>Windows 的环境变量就是依托答辩</p>
+</aside></script></section><section data-markdown><script type="text/template">
+### Linux 应用实例
 
-</script></section><section  data-markdown><script type="text/template">
-## get started
+- 服务器、超算
+- 路由器
+- Android
+- ...
+</script></section><section data-markdown><script type="text/template">
+### 日常使用
 
-* choose 'gh-pages' to be the public-branch
-![settings](img/2_settings.png)
+- 办公学习
+- 娱乐（游戏、视频、音乐等
+- 开发
+- ...
 
-</script></section><section  data-markdown><script type="text/template">
-## get started
+<aside class="notes"><p>事实上，Linux 对游戏的兼容性已经相当不错了，这主要得益于 Steam 的努力，Proton 项目极大地推进了 Linux 游戏的发展；此外，所有的开源游戏模拟器比如 citra、dolphin、yuzu 等的开发都是 Linux 优先的，Windows 版本只是附带的，所以如果你是个游戏爱好者，Linux 也是个不错的选择；甚至，你也能玩原神，只是需要一些额外的配置</p>
+</aside></script></section></section><section ><section data-markdown><script type="text/template">
+## Linux 常见发行版介绍
+适合自己的才是最好的
+<aside class="notes"><p>避免偏见，不讨论哪个发行版好，哪个发行版不好。</p>
+</aside></script></section><section data-markdown><script type="text/template">
+![Linux Rank](img/LinuxInstallParty/LinuxRank.jpeg)
+</script></section><section data-markdown><script type="text/template">
+### ![Ubuntu](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ubuntu-logo-2022.svg/640px-Ubuntu-logo-2022.svg.png)
 
-* choose 'gh-pages' to be the public-branch by:
-  * first switching to master
-  * and then switching back to gh-pages
-  * github-bug? ¯\\_(ツ)_/¯
+- 简单易上手，适合新手
+- 基于 Debian，有着丰富软件源
+- 社区活跃，有大量的教程和问答
+</script></section><section data-markdown><script type="text/template">
+### ![Debian](./img/LinuxInstallParty/debian_logo_icon_168290.png)
 
-</script></section><section  data-markdown><script type="text/template">
-![settings](img/3_selectBranch.png)
+- 固若金汤，稳定性极强
+- 坚守 UNIX 和自由软件的精神
+- 有着丰富的软件源
+- 支持众多计算机架构，
+  
+  同时也是众多发行版的直接上游或源头
 
-</script></section><section  data-markdown><script type="text/template">
-## writing content
+<aside class="notes"><p>Debian 的自由精神已经上升到了一种哲学的地步，甚至影响到了人的意识形态</p>
+</aside></script></section><section data-markdown><script type="text/template">
+### ![Arch Linux](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Archlinux-logo-standard-version.png/640px-Archlinux-logo-standard-version.png)
 
-* edit the markdown-file `slides.md`
-* find all configurations on [reveal-md](https://github.com/gaerfield/reveal-md-github-pages)
+- 遵循 [KISS 原则](https://zh.wikipedia.org/wiki/KISS%E5%8E%9F%E5%88%99)，简单而高效，
+- 滚动更新，永不过时
+- 极其丰富的软件源和积极的社区支持
+- Arch Wiki 是 Linux 社区最好的 Wiki
+- 适合有 DIY 需求的用户，~~除了难装，其他都很简单~~
+</script></section><section data-markdown><script type="text/template">
+![LinuxChoose](img/LinuxInstallParty/LinuxChoose.jpeg)
+</script></section><section data-markdown><script type="text/template">
+### ![Manjaro](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Manjaro_logo_text.svg/640px-Manjaro_logo_text.svg.png)
 
-</script></section><section  data-markdown><script type="text/template">
-## Customizations
+- 基于 Arch Linux，但是更简单易用，适合新手
+- 能使用大部分 Arch Linux 的软件源
+- 界面美观，自带驱动，可更换内核
+</script></section><section data-markdown><script type="text/template">
+### ![Fedora](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Fedora_logo_%282021%29.svg/640px-Fedora_logo_%282021%29.svg.png)
 
-* I changed a whee-bit the defaults
+- 由 Red Hat 公司赞助，社区活跃
+- 有着丰富的软件源
+- Linus Torvalds 使用的发行版
+- 适合有一定 Linux 基础的用户
+</script></section><section data-markdown><script type="text/template">
+### ![openSUSE](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/OpenSUSE_Logo.svg/640px-OpenSUSE_Logo.svg.png)
 
-</script></section><section  data-markdown><script type="text/template">
-## Customizations - CSS
+- 新手友好，易于上手，有着优秀的桌面环境体验
+- 特性丰富，YaST 以简便直接的形式控制系统的一切
+- 坚如磐石，比较稳定，有社区和商业支持
+</script></section><section data-markdown><script type="text/template">
+### ![Deepin](./img/LinuxInstallParty/deepin_logo.png)
 
-* custom.css has some additional configs (who needs borders around pictures)
-* just remove the content, if it not suits you
-* but keep the file, or the build will fail
+- 国产 Linux 发行版，以美观易用著称
+- 对国产应用以及中文支持友好
+</script></section><section data-markdown><script type="text/template">
+### ![Kali Linux](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Kali_Linux_2.0_wordmark.svg/640px-Kali_Linux_2.0_wordmark.svg.png)
 
-</script></section><section  data-markdown><script type="text/template">
-## Customizations - includes
+- 专注于渗透测试，内置大量渗透工具
+- ~~KALI 学得好，牢饭吃到饱~~
+</script></section><section data-markdown><script type="text/template">
+### ![Gentoo](./img/LinuxInstallParty/gentoo-horizontal.svg)
 
-* the presentation is split up into multiple documents
-* useful for large presentations
-* an include is defined by
+- 勤快一时，懒惰一世
+- 适合对性能有极高要求的用户
+<aside class="notes"><p>Gentoo 每一部分都可以在最终用户的系统上重新编译建造，甚至包括最基本的系统库和编译器自身</p>
+</aside></script></section><section data-markdown><script type="text/template">
+### ![NixOS](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/NixOS_logo.svg/640px-NixOS_logo.svg.png)
 
-   `{{path/to/include.md}}`
+- 声明式配置，纯函数式包管理
+- 原子化升级和回滚
+- 易于复现系统环境，安全稳定
+- 适合进阶用户
+</script></section></section><section ><section data-markdown><script type="text/template">
+## Linux 安装的 N 种方式
+</script></section><section data-markdown><script type="text/template">
+### 实体机安装
 
-</script></section><section  data-markdown><script type="text/template">
-## Customizations - plantuml
+- 无需虚拟化，性能最好
+- 原汁原味
+</script></section><section data-markdown><script type="text/template">
+### 虚拟机安装
 
-* I really like diagrams
-````
-``` puml
-A -> B
+- 无需重启
+- 管理方便
+- 隔离性好，安全稳定
+</script></section><section data-markdown><script type="text/template">
+### WSL 安装
+
+- 性能损耗低
+- 无需重启
+- 无缝切换
+</script></section><section data-markdown><script type="text/template">
+### 容器安装
+
+借助 [Termux](https://f-droid.org/zh_Hans/packages/com.termux/) 和 proot/chroot 容器可以实现在 Android 等设备上运行 Linux 系统
+
+```shell
+. <(curl -L gitee.com/mo2/linux/raw/2/2)
 ```
-````
-
-will become
-
-<img src='https://g.gravizo.com/svg?@startuml;A -> B;@enduml'/>
-
-</script></section><section  data-markdown><script type="text/template">
-## Customizations - plantuml
-
-* check [plantuml](https://plantuml.com/) for more details
-* or even better: [the hitchhikers guide to plantuml](https://crashedmind.github.io/PlantUMLHitchhikersGuide/)
-
-</script></section><section  data-markdown><script type="text/template">
-## Customizations
-
-* included scripts are configured in includes.js
-* clear the content, if customizations not needed (but keep the file!)
-* never read the following files:
-  * `scripts/fileInclude.js`
-  * `scripts/pumlpreprocessor.js`
-* I know, they are open-source, but they are also crappy
-* Me not good is in javascript
-
-</script></section><section  data-markdown><script type="text/template">
-
-# The End
-
-have fun ;)
-
-</script></section></div>
+</script></section></section><section  data-markdown><script type="text/template">
+## Talk is cheap, Let's install Linux</script></section></div>
     </div>
 
     <script src="./dist/reveal.js"></script>
@@ -148,6 +200,7 @@ have fun ;)
         history: true,
         center: true,
         transition: 'default', // none/fade/slide/convex/concave/zoom
+        slideNumber: true,
         plugins: [
           RevealMarkdown,
           RevealHighlight,
@@ -160,7 +213,7 @@ have fun ;)
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"controls":false,"slideNumber":false,"transition":"slide","backgroundTransition":"fade"}, queryOptions);
+      var options = extend(defaultOptions, {"controls":true,"slideNumber":false,"transition":"slide","backgroundTransition":"fade"}, queryOptions);
     </script>
 
 
