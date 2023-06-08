@@ -12,7 +12,7 @@ revealOptions:
   backgroundTransition: 'fade'
 ---
 
-# Linux Install Party
+# <span style="text-transform: none;">Linux Install Party</span>
 
 by [SHUOSC](https://shuosc.org)
 
@@ -23,7 +23,7 @@ by [SHUOSC](https://shuosc.org)
 
 所有被叫做“Linux”的发行版实际上是 GNU/Linux 发行版。
 <!--s-->
-## 为什么选择 Linux
+## <span style="text-transform: none;">为什么选择 Linux</span>
 <!--v-->
 ### 开源自由
 
@@ -56,7 +56,7 @@ Note: Windows 的环境变量就是依托答辩
 - 自定义桌面环境(GNOME, KDE, XFCE, i3wm...)
 - 自定义一切，理论上你可以自由修改 Linux 的任何开源代码并编译安装，~~让她彻底变成你的形状~~
 <!--v-->
-### Linux 应用实例
+### <span style="text-transform: none;">Linux 应用实例</span>
 
 - 服务器、超算
 - 路由器
@@ -72,7 +72,7 @@ Note: Windows 的环境变量就是依托答辩
 
 Note: 事实上，Linux 对游戏的兼容性已经相当不错了，这主要得益于 Steam 的努力，Proton 项目极大地推进了 Linux 游戏的发展；此外，所有的开源游戏模拟器比如 citra、dolphin、yuzu 等的开发都是 Linux 优先的，Windows 版本只是附带的，所以如果你是个游戏爱好者，Linux 也是个不错的选择；甚至，你也能玩原神，只是需要一些额外的配置
 <!--s-->
-## Linux 常见发行版介绍
+## <span style="text-transform: none;">Linux 常见发行版介绍</span>
 适合自己的才是最好的
 Note: 避免偏见，不讨论哪个发行版好，哪个发行版不好。
 <!--v-->
@@ -147,7 +147,7 @@ Note: Gentoo 每一部分都可以在最终用户的系统上重新编译建造�
 - 易于复现系统环境，安全稳定
 - 适合进阶用户
 <!--s-->
-## Linux 安装的 N 种方式
+## <span style="text-transform: none;">Linux 安装的 N 种方式</span>
 <!--v-->
 ### 实体机安装
 
@@ -174,4 +174,4 @@ Note: Gentoo 每一部分都可以在最终用户的系统上重新编译建造�
 . <(curl -L gitee.com/mo2/linux/raw/2/2)
 ```
 <!--s-->
-## Talk is cheap, Let's install Linux
+## <span style="text-transform: none;">Talk is cheap, Let's install Linux</span>
